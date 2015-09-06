@@ -21,7 +21,7 @@ bintray {
 
         repo = "maven"
         name = "pl.com.adammistal.simplydb"
-
+        group = "pl.com.adammistal"
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]
