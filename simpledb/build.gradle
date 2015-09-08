@@ -3,8 +3,8 @@ apply plugin: 'com.jfrog.bintray'
 apply plugin: 'maven-publish'
 
 ext {
-    siteUrl = 'https://github.com/GunslingerPL/SimplyDB'
-    gitUrl = 'https://github.com/GunslingerPL/SimplyDB.git'
+    siteUrl = 'https://github.com/GunslingerPL/SimpleDBProject'
+    gitUrl = 'https://github.com/GunslingerPL/SimpleDBProject.git'
     project.version = "0.1.0"
 
 }
@@ -20,7 +20,7 @@ bintray {
     pkg {
 
         repo = "maven"
-        name = "pl.com.adammistal.simplydb"
+        name = "pl.com.adammistal.simpledb"
         group = "pl.com.adammistal"
         websiteUrl = siteUrl
         vcsUrl = gitUrl
