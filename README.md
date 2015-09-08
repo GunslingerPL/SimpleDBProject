@@ -4,6 +4,11 @@ Android library to simplify the work with databases.
 
 This library should be used in Application context. Whe have to create singleton controller class. Results from the callbacks should be 
 passed to activty/ fragments by EventBus. 
+## SDK Support
+
+From SDK API 11
+
+
 ## Gradle
 ``` java
  maven {
